@@ -1,19 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using TheaterKata.Framework;
+using TheaterKata.Framework.Domain;
 
 namespace TheaterKata.Controllers
 {
     [Route("api/[controller]")]
-    public class ValuesController : Controller
+    public class TheaterController : Controller
     {
+        private readonly ITheaterProvider _theaterProvider;
+
+        public TheaterController(ITheaterProvider theaterProvider)
+        {
+            _theaterProvider = theaterProvider;
+        }
+
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Theater> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _theaterProvider.GetAllTheaters();
         }
 
         // GET api/values/5

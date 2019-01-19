@@ -17,7 +17,7 @@ namespace TheaterKata.Framework
             _booked = booked;
         }
 
-        public List<Seat> suggest(int partySize)
+        public List<Seat> Suggest(int partySize)
         {
             return null;
         }

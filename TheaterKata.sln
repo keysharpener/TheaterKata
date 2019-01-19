@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterKata", "TheaterKata\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterKata.Framework", "TheaterKata.Framework\TheaterKata.Framework.csproj", "{E597CBFE-885F-4CB6-BEAA-B4B516DFE893}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheaterKata.Test", "TheaterKata.Test\TheaterKata.Test.csproj", "{615780E8-CFBB-4C47-9FE0-00312E330C17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{E597CBFE-885F-4CB6-BEAA-B4B516DFE893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E597CBFE-885F-4CB6-BEAA-B4B516DFE893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E597CBFE-885F-4CB6-BEAA-B4B516DFE893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{615780E8-CFBB-4C47-9FE0-00312E330C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{615780E8-CFBB-4C47-9FE0-00312E330C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{615780E8-CFBB-4C47-9FE0-00312E330C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{615780E8-CFBB-4C47-9FE0-00312E330C17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
